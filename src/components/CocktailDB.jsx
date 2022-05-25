@@ -23,7 +23,9 @@ export const CocktailDB = ({ props }) => {
   const checkImgIndex = imageOptions.filter((img, index) => {
     let afterSplit = props.image.split(".");
     let afterSplitImg = img.split(".");
-    if (afterSplitImg[0] === afterSplit[0]) {
+    let lastSplit = afterSplit[0].split("/");
+    let lastSplitImg = afterSplitImg[0].split("/");
+    if (lastSplit[3] === lastSplitImg[3]) {
       return img;
     }
   });
