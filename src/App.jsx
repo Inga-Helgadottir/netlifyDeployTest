@@ -7,7 +7,7 @@ import { Outlet, Link } from "react-router-dom";
 import WelcomePage from "./components/WelcomePage";
 import Header from "./components/Header";
 import LogOut from "./components/LogOut";
-import { loginUrl, signUpUrl } from "./settings";
+import { loginUrl, signUpUrl } from "../settings";
 import SignUp from "./components/SignUp";
 import img from "./images/logowhite.png";
 
