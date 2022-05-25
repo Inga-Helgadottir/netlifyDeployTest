@@ -6,10 +6,8 @@ const WelcomePage = ({ name, role }) => {
     <div style={{ marginBottom: "20px", marginTop: "2%" }}>
       {name === "null" ? (
         <div>
-          <h2>Welcome!</h2>
+          <h2 className="bold">Welcome to Cocktail by JOIM!</h2>
           <p className="welcomePTag">
-            <span className="bold">Welcome to Cocktail by JOIM!</span> <br />
-            <br />
             Here you can choose a category and pick any cocktail you might want
             to make and get the recipe for that specific cocktail.
             <br />
