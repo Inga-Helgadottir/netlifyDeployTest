@@ -9,7 +9,6 @@ import AlcoholUnits from "./components/AlcoholUnits";
 import MakeCocktails from "./components/MakeCocktails";
 import SeeAllUsers from "./components/SeeAllUsers";
 import ChangeUser from "./components/ChangeUser";
-import { HashRouter, Switch, Route, Redirect } from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
