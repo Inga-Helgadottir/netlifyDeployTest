@@ -14,8 +14,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />}>
-        <Route path="seeCocktail/:id" element={<CocktailRecipe />}></Route>
-        <Route path="seeCocktails" element={<Cocktails />}></Route>
+        <Route path="seeCocktails" element={<Cocktails />}>
+          <Route path="seeCocktail/:id" element={<CocktailRecipe />}></Route>
+        </Route>
         <Route path="alcoholUnits" element={<AlcoholUnits />}></Route>
         <Route path="makeCocktail" element={<MakeCocktails />}></Route>
         <Route path="seeAllUsers" element={<SeeAllUsers />}></Route>
