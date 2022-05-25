@@ -1,7 +1,7 @@
 import React from "react";
 import { Cocktail } from "./Cocktail";
 import { useState, useEffect } from "react";
-import { cocktalLetterUrl, allCocktailsDB } from "../settings";
+import { cocktalLetterUrl, allCocktailsDB } from "../../settings";
 import "../styles/cocktails.css";
 import { CocktailDB } from "./CocktailDB";
 import backgroundimg from "../images/CocktailsBackground.jpeg";

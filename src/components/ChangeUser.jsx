@@ -1,5 +1,5 @@
 import React from "react";
-import { changeUserRoleUrl } from "../settings";
+import { changeUserRoleUrl } from "../../settings";
 import { useState, useEffect } from "react";
 import backgroundimg from "../images/CocktailsBackground.jpeg";
 import "../styles/changeUser.css";

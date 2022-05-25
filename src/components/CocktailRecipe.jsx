@@ -1,8 +1,7 @@
 import React from "react";
 import { Cocktail } from "./Cocktail";
 import { CocktailDB } from "./CocktailDB";
-import { getCocktailByIdAPIUrl } from "../settings";
-import { getCocktailByIdUrl } from "../settings";
+import { getCocktailByIdAPIUrl, getCocktailByIdUrl } from "../../settings";
 import { useState, useEffect } from "react";
 import beerGlass from "../images/beerGlass.png";
 import cocktailGlass from "../images/cocktailGlass.jpg";

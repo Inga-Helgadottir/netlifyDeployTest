@@ -8,7 +8,7 @@ import martiniGlass from "../images/martiniGlass.jpg";
 import normalGlass from "../images/normalGlass.jpg";
 import normalShortGlass from "../images/normalShortGlass.jpg";
 import tallSkinnyGlass from "../images/tallSkinnyGlass.jpg";
-import { makeCocktailUrl } from "../settings";
+import { makeCocktailUrl } from "../../settings";
 import backgroundimg from "../images/CocktailsBackground.jpeg";
 
 const MakeCocktails = () => {
