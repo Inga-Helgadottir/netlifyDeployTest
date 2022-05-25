@@ -1,0 +1,48 @@
+h2 {
+  font-size: 35px;
+  margin-top: 0;
+}
+
+form,
+.form-control {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 25px;
+}
+input,
+textarea,
+select {
+  padding: 2px 5px;
+  width: 100%;
+  margin: 10px auto 20px auto;
+  font-size: 25px;
+}
+
+label {
+  margin: 5px 0 2px 0;
+}
+
+#images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.imageOption {
+  width: auto;
+  height: 120px;
+  border: solid 0.5px black;
+  margin: 10px;
+}
+
+.btn {
+  border: 1px solid grey;
+  padding: 4px 20px;
+  box-shadow: 0px 0px 2px 2px grey inset;
+  width: 100%;
+  margin: 10px auto;
+  font-size: 25px;
+}

@@ -1,0 +1,27 @@
+header {
+  display: flex;
+}
+
+header h1 {
+  display: flex;
+  font: 40px Kannada MN, sans-serif;
+  border-color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  font-size: 40px;
+  margin: auto auto auto 18%;
+}
+
+header img {
+  display: flex;
+  background-position: left;
+  width: 250px;
+  float: left;
+}
+
+header img {
+  margin: auto 0;
+  height: 10%;
+  width: 20%;
+}

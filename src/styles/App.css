@@ -1,0 +1,8 @@
+.App {
+  text-align: center;
+}
+.loading {
+  display: none;
+  margin: 0 auto !important;
+  padding: 2% 0;
+}

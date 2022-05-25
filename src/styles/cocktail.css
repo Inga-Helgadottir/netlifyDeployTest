@@ -1,0 +1,29 @@
+.cocktail-container {
+  border: solid 1px grey;
+  padding: 7px;
+  margin: 10px 0;
+  background-color: white;
+}
+
+.cocktail-container h2 {
+  color: #575656;
+}
+
+.cocktail-container img {
+  width: auto;
+  height: 185px;
+}
+
+.btn {
+  border: 1px solid grey;
+  padding: 4px 20px;
+  box-shadow: 0px 0px 2px 2px grey inset;
+  width: 90%;
+  margin: 10px auto;
+  font-size: 19px;
+  background-color: white;
+}
+.btn a {
+  text-decoration: none;
+  color: #575656;
+}

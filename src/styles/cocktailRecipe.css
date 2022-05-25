@@ -1,0 +1,24 @@
+.CocktailRecipes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+li {
+  text-align: left;
+}
+
+.CocktailRecipes-container img {
+  width: 90%;
+  height: auto;
+}
+.ingredientLi {
+  list-style-position: inside;
+}
+.CocktailRecipes h3 {
+  font-size: 30px;
+}
+.CocktailRecipes li {
+  font-size: 21px;
+}

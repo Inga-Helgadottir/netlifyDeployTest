@@ -1,0 +1,68 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: solid 2px black;
+  padding: 5px;
+  background-color: white;
+  flex-wrap: inherit;
+}
+nav a {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+}
+nav a:hover {
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+
+/* ------------------------------------------------ */
+
+ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  width: 12%;
+  background-color: white;
+  height: 50%;
+  position: fixed; /* Make it stick, even on scroll */
+  border: black;
+  top: 225px;
+  left: 280px;
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+ul a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+ul a:hover {
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+
+.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.dropDownIcon {
+  /* top: -20px;
+  width: 3%;
+  left: 490px;
+  cursor: pointer;
+  position: fixed; */
+  width: 40px;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  background-color: white;
+  color: black;
+  /* top: 310px;
+  left: 510px; */
+}

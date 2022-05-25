@@ -1,0 +1,41 @@
+.dontDrive {
+  background-color: red;
+  border: solid 2px black;
+  text-decoration: underline;
+  padding: 10px 0;
+}
+.radioBtns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+  margin: 0 auto;
+}
+.form-control label {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px 0;
+}
+.alcoholUnitsBackLink {
+  color: black;
+  margin-bottom: 10px;
+}
+.radioBtns input {
+  padding: 0;
+  margin: 0 12% 0 0;
+  width: 20px;
+}
+.radioBtns label {
+  font-size: 25px;
+  font-weight: normal;
+}
+.radioOption {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 12%;
+}
+@media only screen and (max-width: 423px) {
+  .radioBtns {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,13 @@
+.logInSignUpLinks {
+  display: flex;
+  flex-direction: column;
+}
+.logInSignUpLinks a {
+  width: 30%;
+}
+.welcomePTag {
+  margin: 4% auto;
+}
+.bold {
+  font-weight: bolder;
+}
