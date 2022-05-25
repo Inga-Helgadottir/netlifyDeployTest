@@ -1,5 +1,5 @@
 import React from "react";
-import { seeAllUsersUrl } from "../settings";
+import { seeAllUsersUrl } from "../../settings";
 import { useState, useEffect } from "react";
 import "../styles/seeAllUsers.css";
 import backgroundimg from "../images/CocktailsBackground.jpeg";
