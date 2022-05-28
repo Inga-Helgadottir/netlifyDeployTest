@@ -20,6 +20,7 @@ export const CocktailDB = ({ props }) => {
     normalShortGlass,
     tallSkinnyGlass,
   ]);
+
   useEffect(() => {
     imageOptions.filter((img, index) => {
       let afterSplit = props.image.split(".");
