@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../styles/cocktail.css";
 import { useState } from "react";
 import beerGlass from "../images/beerGlass.png";
@@ -10,6 +10,7 @@ import normalShortGlass from "../images/normalShortGlass.jpg";
 import tallSkinnyGlass from "../images/tallSkinnyGlass.jpg";
 
 export const CocktailDB = ({ props }) => {
+  const [test, setTest] = useState("");
   const [imageOptions, setImageOptions] = useState([
     beerGlass,
     cocktailGlass,
@@ -19,6 +20,21 @@ export const CocktailDB = ({ props }) => {
     normalShortGlass,
     tallSkinnyGlass,
   ]);
+  useEffect(() => {
+    imageOptions.filter((img, index) => {
+      let afterSplit = props.image.split(".");
+      let afterSplitImg = img.split(".");
+      let lastSplit = afterSplit[0].split("/");
+      let lastSplitImg = afterSplitImg[0].split("/");
+      if (lastSplit[2] === lastSplitImg[3]) {
+        setTest(img);
+      }
+
+      if (lastSplit[3] === lastSplitImg[3]) {
+        setTest(img);
+      }
+    });
+  }, []);
 
   const checkImgIndex = imageOptions.filter((img, index) => {
     let afterSplit = props.image.split(".");
@@ -33,9 +49,10 @@ export const CocktailDB = ({ props }) => {
       return img;
     }
   });
+
   return (
     <div className="cocktail-container">
-      <img alt={props.imageAlt} src={checkImgIndex} />
+      <img alt={props.imageAlt} src={test} />
       <h2> {props.name} </h2>
       <button className="btn">
         <a href={`/seeCocktail/${props.id}`}>Get the recipe</a>
