@@ -27,8 +27,13 @@ export const CocktailDB = ({ props }) => {
     let lastSplitImg = afterSplitImg[0].split("/");
 
     if (lastSplit[3] === lastSplitImg[3]) {
+      console.log("img");
+      console.log(img);
       return img;
-    } else if (lastSplit[2] === lastSplitImg[3]) {
+    }
+    if (lastSplit[2] === lastSplitImg[3]) {
+      console.log("img");
+      console.log(img);
       return img;
     }
   });
